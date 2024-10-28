@@ -1,0 +1,24 @@
+version: '3'
+
+tasks:
+  default:
+    desc: Display available tasks
+    cmds:
+    - task -l
+
+  show-cwd:
+    desc: Show current working directory
+    cmds:
+      - echo "current directory $(shell pwd)"
+
+  delete-ds-store:
+    desc: Delete all .DS_Store files
+    cmds:
+    - find . -name '.DS_Store' -type f -ls -delete
+
+  build-html:
+    desc: Build HTML files
+    cmds:
+    - echo "Building HTML files"
+    - marp README.md
+    - echo "Done."
