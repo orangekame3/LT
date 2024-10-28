@@ -17,6 +17,11 @@ show-cwd: ## Show current working directory
 delete-ds-store: ## Delete all .DS_Store files
 	find . -name '.DS_Store' -type f -ls -delete
 
+build-html: ## Build HTML
+	@echo "Building HTML..."
+	@marp README.md
+	@echo "Done."
+
 help: ## Show this help message
 	@echo "Usage: make [target]"
 	@echo ""

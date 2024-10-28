@@ -8,6 +8,9 @@ footer: "© 2024 QIQB"
 
 # 頻繁に利用するコマンドを Taskfile で管理してみた。ついでに自己文書化とインタラクティブ実行にも対応してみた
 
+![w:150](slide_qr.png)
+https://www.orangekame3.net/LT/midousuji-tech/README.html
+
 ---
 
 ## はじめに
@@ -196,7 +199,7 @@ go install github.com/orangekame3/mk@latest
 実際に触ってみてください。
 
 ```bash
-❯❯❯ mk -f
+❯❯❯ mk -f https://raw.githubusercontent.com/orangekame3/LT/refs/heads/main/midousuji-tech/Makefile
 ```
 
 ---
