@@ -8,7 +8,7 @@ footer: "@2024 #midosuji_tech"
 
 ## オレオレコマンドをTaskで管理したついでに自己文書化とインタラクティブ実行にも対応してみた
 
-Takafumi Miyanaga([@orangekame3](https://x.com/orangekame3))
+Takafumi Miyanaga[@orangekame3](https://x.com/orangekame3))
 
 ![w:150](slide_qr.png)
 ↑https://www.orangekame3.net/LT/midousuji-tech/
@@ -17,7 +17,7 @@ Takafumi Miyanaga([@orangekame3](https://x.com/orangekame3))
 
 ## Who am I?
 
-🫠 みやなが([@orangekame3](https://x.com/orangekame3))です。
+🫠 みやなが[@orangekame3](https://x.com/orangekame3))です。
 大阪大学で研究員兼ソフトウェアエンジニアをしています。
 ![w:300 center](profile_qr.png)
 https://my.prairie.cards/u/orangekame3
@@ -100,8 +100,6 @@ alias portfoward-dev=aws ssm start-session \
 Makefile は工夫すれば自己文書化することができます。
 
 参考: [Makefile の自己文書化](https://postd.cc/auto-documented-makefile/)
-
-🫠　「タスクランナーにMakefile使うな！は受け付けません 🙅‍♂️」
 
 ---
 
@@ -272,6 +270,18 @@ tasks:
 ```
 ---
 
+## Taskfileの自己文書化
+
+```bash
+❯❯❯ task           
+task: [default] task -l
+task: Available tasks for this project:
+* build-html:            Build HTML files
+* default:               Display available tasks
+* delete-ds-store:       Delete all .DS_Store files
+* show-cwd:              Show current working directory
+```
+
 ## mk - Taskfile 対応
 
 Taskfile にも対応しています。
@@ -284,7 +294,6 @@ Taskfile にも対応しています。
 
 ---
 
-
 ## 余談
 
 >If you call Task with the `--global` (alias `-g`) flag, it will look for your home directory instead of your working directory. In short, Task will look for a Taskfile that matches `$HOME/{T,t}askfile.{yml,yaml}` . This is useful to have automation that you can run from anywhere in your system!
@@ -293,14 +302,14 @@ Taskfile にも対応しています。
 
 🫠　「Task公式もオレオレコマンドの管理ツールとしての利用方法を提案してる...」
 
-----
+---
 
 ## まとめ
 
 - 頻繁に利用するコマンドを管理する方法を考えてみた
 - `Makefile` は自己文書化が可能
 - `mk` はインタラクティブにコマンドを実行できる
-- `Taskfile` は `mk` にも対忌している
+- `mk` は　`Taskfile`にも対応している
 - 使いやすい環境を作ることで業務効率化につながる
 - みんなもTaskでオレオレコマンドを管理してみよう
 - 以上です。ありがとうございました。🫠
