@@ -11,7 +11,7 @@ footer: "@2024 #midosuji_tech"
 Takafumi Miyanaga([@orangekame3](https://x.com/orangekame3))
 
 ![w:150](slide_qr.png)
-↑https://www.orangekame3.net/LT/midousuji-tech/README.html
+↑https://www.orangekame3.net/LT/midousuji-tech/
 
 ---
 
