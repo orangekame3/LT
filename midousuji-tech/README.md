@@ -19,23 +19,8 @@ Takafumi Miyanaga([@orangekame3](https://x.com/orangekame3))
 
 🫠 みやなが([@orangekame3](https://x.com/orangekame3))です。
 大阪大学で研究員兼ソフトウェアエンジニアをしています。
-
-<div class="flex">
-<div>
-
 ![w:300 center](profile_qr.png)
 https://my.prairie.cards/u/orangekame3
-
-</div>
-<div>
-
-![w:300 center](orangekame3.jpg)
-
-</div>
-</div>
-
-
-
 
 ---
 
@@ -319,37 +304,3 @@ Taskfile にも対応しています。
 - 使いやすい環境を作ることで業務効率化につながる
 - みんなもTaskでオレオレコマンドを管理してみよう
 - 以上です。ありがとうございました。🫠
-
-
-
-
-<style>
-:root {
-  --fw: 1;
-}
-/* ----- レイアウト ----- */
-.flex{
-  display: flex;
-  gap: 1em;
-}
-.sa {
-  justify-content: space-around;
-  /* border: 8px dashed rgb(15, 166, 226);
-  background-color: rgb(222, 244, 255); */
-}
-.sb {
-  justify-content: space-between;
-  /* border: 8px dashed rgb(21, 17, 255);
-  background-color: rgb(222, 244, 255); */
-}
-.sa div,.sb div{
-  margin: 0.1em;
-  /* border: 8px dashed rgb(80, 177, 109);
-  background-color: rgb(227, 250, 237); */
-}
-.fw div{
-  flex: var(--fw);
-  /* background-color: rgb(244, 238, 255);
-  border: 8px dashed rgb(93, 0, 255); */
-}/* ---------- */
-</style>
