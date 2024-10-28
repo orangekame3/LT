@@ -20,5 +20,5 @@ tasks:
     desc: Build HTML files
     cmds:
     - echo "Building HTML files"
-    - marp README.md
+    - marp README.md -o index.html
     - echo "Done."

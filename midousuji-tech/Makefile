@@ -19,7 +19,7 @@ delete-ds-store: ## Delete all .DS_Store files
 
 build-html: ## Build HTML
 	@echo "Building HTML..."
-	@marp README.md
+	@marp README.md -o index.html
 	@echo "Done."
 
 help: ## Show this help message
