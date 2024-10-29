@@ -239,7 +239,7 @@ go install github.com/orangekame3/mk@latest
 実際に触ってみてください。
 
 ```bash
-❯❯❯ mk -f https://raw.githubusercontent.com/orangekame3/LT/refs/heads/main/midousuji-tech/Makefile
+❯❯❯ mk -f https://raw.githubusercontent.com/orangekame3/LT/refs/heads/main/midosuji-tech/Makefile
 ```
 
 ---
